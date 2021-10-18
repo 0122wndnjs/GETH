@@ -1,0 +1,19 @@
+=============== Oct 18, 2021 (KST) ===============
+12:20:09.961593 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:20:10.018908 db@open opening
+12:20:10.209825 version@stat F·[] S·0B[] Sc·[]
+12:20:10.465500 db@janitor F·2 G·0
+12:20:10.465596 db@open done T·446.619832ms
+12:20:10.775729 memdb@flush N·21268 S·2MiB
+12:20:10.918996 memdb@flush created L0@3 N·21268 S·1MiB "\x00\x00\xae..\x82\x88\x11,v9389":"\xff\xfc\x94..\xa5\x05\xa1,v9518"
+12:20:10.919102 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+12:20:10.980310 memdb@flush committed F·1 T·178.319691ms
+12:20:10.981702 journal@remove removed @1
+12:20:10.981803 table@compaction range L-1 "":""
+12:20:10.981908 table@compaction L0·1 -> L1·0 S·1MiB Q·21268
+12:20:11.060207 table@build created L1@4 N·21268 S·1MiB "\x00\x00\xae..\x82\x88\x11,v9389":"\xff\xfc\x94..\xa5\x05\xa1,v9518"
+12:20:11.060640 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.02]
+12:20:11.116943 table@compaction committed F~ S~ Ke·0 D·0 T·134.967871ms
+12:20:11.117893 table@remove removed @3
+12:24:13.858103 db@close closing
+12:24:13.858697 db@close done T·591.14µs
